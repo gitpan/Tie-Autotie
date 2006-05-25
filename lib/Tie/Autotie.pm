@@ -1,10 +1,11 @@
 package Tie::Autotie;
 
-use 5.008003;
+use 5.006;
 use strict;
 use warnings;
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
+
 
 sub import {
   my ($class, $pkg, $use_args, $tie_args) = @_;
